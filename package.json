@@ -1,6 +1,6 @@
 {
   "name": "convert-srt-to-ass",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Convert SRT subtitles to ASS",
   "main": "dist/index.js",
   "types": "src/types.d.ts",
@@ -38,5 +38,6 @@
     "eslint": "^8.17.0",
     "ts-node": "^10.8.1",
     "typescript": "^4.7.3"
-  }
+  },
+"files":["tsconfig.json","src"]
 }
