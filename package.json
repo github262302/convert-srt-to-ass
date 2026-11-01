@@ -9,7 +9,8 @@
   },
   "scripts": {
     "build": "tsc --build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"postinstall": "tsc  --build"
   },
   "keywords": [
     "karaoke",
@@ -25,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AxelTerizaki/srt2ass"
+    "url": "https://github.com/github262302/convert-srt-to-ass"
   },
   "dependencies": {
     "ass-stringify": "^0.1.3"
